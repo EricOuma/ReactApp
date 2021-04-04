@@ -45,3 +45,6 @@ class PostTest(APITestCase):
         url = reverse('listcreate')
         res = self.client.post(url, data, format='json')
         self.assertEqual(res.status_code, status.HTTP_201_CREATED)
+    
+    def test_update_post(self):
+        pass
