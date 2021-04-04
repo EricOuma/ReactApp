@@ -16,7 +16,7 @@ function Header() {
     return (
     <React.Fragment>
         <CssBaseline />
-        <AppBar position="static" color="white" elevation={0} className={classes.appBar}>
+        <AppBar position="static" color="inherit" elevation={0} className={classes.appBar}>
             <Toolbar>
                 <Typography variant="h6" color="inherit" noWrap>
                     EricRocks
