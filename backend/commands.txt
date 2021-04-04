@@ -1,0 +1,2 @@
+python manage.py makemigrations --dry-un --verbosity 3
+coverage run --omit='*/venv/*' manage.py test
